@@ -16,6 +16,11 @@
 [![](https://visitcount.itsvg.in/api?id=Vivekpal756216&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Y0eWw5NnpxYXR0ZWp0YWw5N3l3aHh6c2l1dzE4aG8wd3U2Z3A4aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="600"/>
+</p>
+
+
 ### 👨‍💻 About Me
 🐧 Linux user | B.Sc CS Student  
 🔐 Cybersecurity & Full Stack Learner  
