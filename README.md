@@ -30,9 +30,6 @@
 [![](https://visitcount.itsvg.in/api?id=Vivekpal756216&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:000000,100:00ff00&text=ACCESS%20GRANTED&fontColor=00ff00&fontSize=45&animation=twinkling&stroke=00ff00&strokeWidth=2&desc=Linux%20User%20%7C%20Cybersecurity%20Learner&descAlignY=70"/>
-</p>
 
 
 ### 👨‍💻 About Me
