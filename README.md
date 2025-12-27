@@ -16,3 +16,16 @@
 [![](https://visitcount.itsvg.in/api?id=Vivekpal756216&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 👨‍💻 About Me
+🐧 Linux user | B.Sc CS Student  
+🔐 Cybersecurity & Full Stack Learner  
+
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+![Networking](https://img.shields.io/badge/Networking-0078D7?style=for-the-badge)
+
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
+
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
