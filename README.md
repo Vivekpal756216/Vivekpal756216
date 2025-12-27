@@ -10,6 +10,9 @@
 </p>
 
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00ff00&height=200&section=header&text=VIVEK%20PAL&fontSize=50&fontColor=00ff00&animation=fadeIn" />
+</p>
 
 
 
