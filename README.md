@@ -1,4 +1,16 @@
 <p align="center">
+  <!-- Snake Animation -->
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+
+  <br><br>
+
+  <!-- Blue Network Animation -->
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="100%"/>
+</p>
+
+
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api
 ?type=rect
 &height=280
