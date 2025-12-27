@@ -1,3 +1,40 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api
+?type=rect
+&height=280
+&color=0:020024,50:090979,100:000000
+&text=VIVEK%20PAL
+&fontSize=52
+&fontColor=00eaff
+&animation=fadeIn
+&stroke=00eaff
+&strokeWidth=2
+&desc=Linux%20User%20%7C%20Web%20%26%20Cybersecurity%20Learner
+&descAlignY=68"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines.svg" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="100%"/>
+</p>
+
+
+### 💫 About Me
+👋 Hi, I'm Vivek | B.Sc CS Student  
+🐧 Linux user | Web & Cybersecurity Learner  
+
+🌱 Learning Full Stack Development, Python & Linux  
+🔐 Studying CCNA, CEH, OSCP, Check Point & Palo Alto  
+
+💬 Ask me about Linux, networking & web basics  
+⚡ I build on Linux and secure what I build
+
+
+
+
 # 💫 About Me:
 👋 Hi, I'm Vivek | B.Sc CS Student  <br>🐧 Linux user | Web & Cybersecurity Learner  <br><br>🌱 Learning Full Stack Development, Python & Linux  <br>🔐 Studying CCNA, CEH, OSCP, Check Point & Palo Alto  <br><br>💬 Ask me about Linux, networking & web basics  <br>⚡ I build on Linux and secure what I build<br>
 
