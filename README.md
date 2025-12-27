@@ -29,3 +29,23 @@
 
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffcc,100:00ff00&height=180&section=header&text=VIVEK%20PAL&fontSize=40&fontColor=00ffcc&animation=fadeIn&stroke=00ffcc&strokeWidth=2&desc=Linux%20User%20%7C%20Cybersecurity%20Learner%20%7C%20Full%20Stack%20Dev&descAlignY=65" />
+</p>
+
+
+
+<p align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="400"/>
+</p>
+
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00ff00"/>
+  <img src="https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=hackthebox&logoColor=00ff00"/>
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00ff00"/>
+</p>
+
