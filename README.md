@@ -16,6 +16,14 @@
 
 
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&color=00FF00&center=true&vCenter=true&width=600&lines=VIVEK+PAL" />
+  <br><br>
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+
+
 # 💫 About Me:
 👋 Hi, I'm Vivek | B.Sc CS Student  <br>🐧 Linux user | Web & Cybersecurity Learner  <br><br>🌱 Learning Full Stack Development, Python & Linux  <br>🔐 Studying CCNA, CEH, OSCP, Check Point & Palo Alto  <br><br>💬 Ask me about Linux, networking & web basics  <br>⚡ I build on Linux and secure what I build<br>
 
