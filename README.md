@@ -17,21 +17,6 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines.svg" width="100%"/>
 </p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="100%"/>
-</p>
-
-
-### 💫 About Me
-👋 Hi, I'm Vivek | B.Sc CS Student  
-🐧 Linux user | Web & Cybersecurity Learner  
-
-🌱 Learning Full Stack Development, Python & Linux  
-🔐 Studying CCNA, CEH, OSCP, Check Point & Palo Alto  
-
-💬 Ask me about Linux, networking & web basics  
-⚡ I build on Linux and secure what I build
-
 
 
 
