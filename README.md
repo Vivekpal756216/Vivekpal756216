@@ -17,7 +17,7 @@
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Y0eWw5NnpxYXR0ZWp0YWw5N3l3aHh6c2l1dzE4aG8wd3U2Z3A4aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JIX9t2j0ZTN9S/giphy.gif" width="600"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:000000,100:00ff00&text=ACCESS%20GRANTED&fontColor=00ff00&fontSize=45&animation=twinkling&stroke=00ff00&strokeWidth=2&desc=Linux%20User%20%7C%20Cybersecurity%20Learner&descAlignY=70"/>
 </p>
 
 
