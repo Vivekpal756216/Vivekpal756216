@@ -25,15 +25,15 @@
 ![Networking](https://img.shields.io/badge/Networking-0078D7?style=for-the-badge)
 
 
-<!-- <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
+ <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true) -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true) 
 
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ffcc,100:00ff00&height=180&section=header&text=VIVEK%20PAL&fontSize=40&fontColor=00ffcc&animation=fadeIn&stroke=00ffcc&strokeWidth=2&desc=Linux%20User%20%7C%20Cybersecurity%20Learner%20%7C%20Full%20Stack%20Dev&descAlignY=65" />
-</p>
+</p> -->
 
 
 
