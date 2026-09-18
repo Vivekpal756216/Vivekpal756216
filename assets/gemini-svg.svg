@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050B14" />
+      <stop offset="100%" stop-color="#0A181F" />
+    </linearGradient>
+    <style>
+      .term-header { fill: #94A3B8; font-family: monospace; font-size: 13px; }
+      .badge-text { fill: #FFFFFF; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: bold; }
+      .cyan-title { fill: #22D3EE; font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: bold; }
+      .field-label { fill: #38BDF8; font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: 600; }
+      .field-dots { fill: #1E293B; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+      .field-val { fill: #F1F5F9; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+      .accent-val { fill: #A78BFA; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+      .green-val { fill: #34D399; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="10" y="10" width="930" height="460" rx="16" fill="url(#bgGrad)" stroke="#164E63" stroke-width="1.5" />
+
+  <!-- Terminal Top Bar -->
+  <circle cx="38" cy="36" r="6" fill="#EF4444" />
+  <circle cx="56" cy="36" r="6" fill="#F59E0B" />
+  <circle cx="74" cy="36" r="6" fill="#10B981" />
+  <text x="475" y="40" text-anchor="middle" class="term-header">profile.sh --live</text>
+
+  <!-- Left Side Visual Box -->
+  <rect x="35" y="65" width="280" height="375" rx="10" fill="#030712" stroke="#0E7490" stroke-width="1" />
+  <text x="50" y="90" fill="#22D3EE" font-family="monospace" font-size="11px">VISUAL.MAP</text>
+  
+  <!-- Cyberpunk Particle Graphic Placeholder -->
+  <g opacity="0.85">
+    <ellipse cx="175" cy="240" rx="90" ry="120" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="4 6" />
+    <ellipse cx="175" cy="240" rx="60" ry="85" fill="none" stroke="#A78BFA" stroke-width="1" stroke-dasharray="3 5" />
+    <ellipse cx="175" cy="240" rx="30" ry="50" fill="none" stroke="#38BDF8" stroke-width="1.5" />
+    <circle cx="175" cy="240" r="8" fill="#22D3EE" />
+  </g>
+  <text x="175" y="380" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="11px">[ Secure Node Topology ]</text>
+
+  <!-- Right Side Terminal Content Box -->
+  <rect x="335" y="65" width="580" height="375" rx="10" fill="#030712" stroke="#0E7490" stroke-width="1" />
+  <text x="355" y="90" fill="#22D3EE" font-family="monospace" font-size="11px">SYSTEM.INFO</text>
+  
+  <!-- LIVE Indicator -->
+  <rect x="830" y="75" width="65" height="22" rx="11" fill="#7F1D1D" />
+  <circle cx="843" cy="86" r="4" fill="#EF4444" />
+  <text x="855" y="90" class="badge-text">LIVE</text>
+
+  <!-- User Handle Bar -->
+  <rect x="355" y="105" width="540" height="28" rx="6" fill="#082F49" stroke="#0284C7" stroke-width="0.8" />
+  <text x="625" y="124" text-anchor="middle" class="cyan-title">@Vivekpal756216</text>
+
+  <!-- Terminal Data Rows -->
+  <g transform="translate(355, 160)">
+    <!-- Row 1 -->
+    <text x="0" y="0" class="field-label">Subject</text>
+    <text x="110" y="0" class="field-dots">....................</text>
+    <text x="260" y="0" class="field-val">Vivek Mevalal Pal</text>
+
+    <!-- Row 2 -->
+    <text x="0" y="22" class="field-label">Role</text>
+    <text x="110" y="22" class="field-dots">....................</text>
+    <text x="260" y="22" class="accent-val">Network Security Engineer &amp; Developer</text>
+
+    <!-- Row 3 -->
+    <text x="0" y="44" class="field-label">Origin</text>
+    <text x="110" y="44" class="field-dots">....................</text>
+    <text x="260" y="44" class="field-val">Mumbai, India</text>
+
+    <!-- Row 4 -->
+    <text x="0" y="66" class="field-label">Education</text>
+    <text x="110" y="66" class="field-dots">....................</text>
+    <text x="260" y="66" class="field-val">BSc - CS</text>
+
+    <!-- Row 5 -->
+    <text x="0" y="88" class="field-label">Status</text>
+    <text x="110" y="88" class="field-dots">....................</text>
+    <text x="260" y="88" class="green-val">OSCP / CEH • Secure Topologies</text>
+
+    <!-- Row 6 -->
+    <text x="0" y="110" class="field-label">ToolChain</text>
+    <text x="110" y="110" class="field-dots">....................</text>
+    <text x="260" y="110" class="field-val">VS Code • PNETLab • EVE-NG • Tabby</text>
+
+    <!-- Row 7 -->
+    <text x="0" y="132" class="field-label">Core.Lang</text>
+    <text x="110" y="132" class="field-dots">....................</text>
+    <text x="260" y="132" class="field-val">Python • JavaScript</text>
+
+    <!-- Row 8 -->
+    <text x="0" y="154" class="field-label">Core.Frontend</text>
+    <text x="110" y="154" class="field-dots">....................</text>
+    <text x="260" y="154" class="field-val">HTML • CSS • Three.js</text>
+
+    <!-- Row 9 -->
+    <text x="0" y="176" class="field-label">Core.Backend</text>
+    <text x="110" y="176" class="field-dots">....................</text>
+    <text x="260" y="176" class="field-val">Django</text>
+
+    <!-- Row 10 -->
+    <text x="0" y="198" class="field-label">Core.Database</text>
+    <text x="110" y="198" class="field-dots">....................</text>
+    <text x="260" y="198" class="field-val">PostgreSQL / SQLite</text>
+
+    <!-- Row 11 -->
+    <text x="0" y="220" class="field-label">Core.Infra</text>
+    <text x="110" y="220" class="field-dots">....................</text>
+    <text x="260" y="220" class="accent-val">Kali • Palo Alto • Check Point • ASA • VPN</text>
+
+    <!-- Row 12 -->
+    <text x="0" y="242" class="field-label">Grid.Mail</text>
+    <text x="110" y="242" class="field-dots">....................</text>
+    <text x="260" y="242" class="field-val">VIVEKPAL756216@GMAIL.COM</text>
+
+    <!-- Row 13 -->
+    <text x="0" y="264" class="field-label">Grid.Portfolio</text>
+    <text x="110" y="264" class="field-dots">....................</text>
+    <text x="260" y="264" class="cyan-title">vkp.vivekpal.gt.tc</text>
+  </g>
+</svg>
