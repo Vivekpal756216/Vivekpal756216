@@ -24,16 +24,28 @@
 </p>
 
 <!-- ========================================================= -->
+<!--                       GITHUB STATS                        -->
+<!-- ========================================================= -->
+
+<p align="center">
+<img src="https://streak-stats.demolab.com/?user=Vivekpal756216&theme=transparent&hide_border=true" width="100%" alt="Vivekpal756216 GitHub Streak" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats-65wc.vercel.app/api?username=Vivekpal756216&hide_rank=true&show_icons=true&title_color=22D3EE&text_color=E2E8F0&icon_color=22D3EE&bg_color=0A181F&border_color=0891B2" width="49%" alt="Vivekpal756216 GitHub Stats" />
+<img src="https://github-readme-stats-65wc.vercel.app/api/top-langs/?username=Vivekpal756216&layout=compact&title_color=22D3EE&text_color=E2E8F0&bg_color=0A181F&border_color=0891B2" width="49%" alt="Vivekpal756216 Top Languages" />
+</p>
+
+<!-- ========================================================= -->
 <!--                       ABOUT ME                            -->
 <!-- ========================================================= -->
 
 ## `> SYSTEM.PROFILE`
 
-
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │ NAME       : Vivek Mevalal Pal                               │
-│ ROLE       : Network Security Engineer & Software Developer  │  
+│ ROLE       : Network Security Engineer & Software Developer  │
 │ LOCATION   : Mumbai, India                                   │
 │ EDUCATION  : BSc-CS                                          │
 │ STATUS     : Studying OSCP & CEH                             │
@@ -42,29 +54,3 @@
 │ FRONTEND   : HTML · CSS · Three.js                           │
 │ LANGUAGES  : Python · JavaScript                             │
 └──────────────────────────────────────────────────────────────┘
-
-<!-- ========================================================= -->
-<!--                      SOCIAL LINKS                         -->
-<!-- ========================================================= -->
-
-<p align="center">
-<a href="mailto:VIVEKPAL756216@GMAIL.COM">
-<img src="https://img.shields.io/badge/Gmail-VIVEKPAL756216%40GMAIL.COM-0A181F?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-Vivek%20Pal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.instagram.com/" target="_blank">
-<img src="https://img.shields.io/badge/Instagram-Vivek%20Pal-0A181F?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.facebook.com/" target="_blank">
-<img src="https://img.shields.io/badge/Facebook-Vivek%20Pal-0A181F?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" />
-</a>
-&nbsp;&nbsp;
-<a href="https://vkp.vivekpal.gt.tc" target="_blank">
-<img src="https://img.shields.io/badge/Portfolio-vkp.vivekpal.gt.tc-0A181F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" />
-</a>
-</p>
