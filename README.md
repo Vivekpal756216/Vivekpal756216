@@ -4,12 +4,8 @@
 
 <p align="center">
 <picture>
-<!-- DARK MODE -->
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vivekpal756216/Vivekpal756216/main/assets/dark.svg" />
-<!-- LIGHT MODE -->
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vivekpal756216/Vivekpal756216/main/assets/light.svg" />
-<!-- FALLBACK -->
-<img src="https://raw.githubusercontent.com/Vivekpal756216/Vivekpal756216/main/assets/dark.svg" alt="Vivekpal756216 Network Security Engineer & Software Developer" width="100%" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vivekpal756216/vivek/master/assets/dark.svg" />
+<img src="https://raw.githubusercontent.com/Vivekpal756216/vivek/master/assets/dark.svg" alt="Vivekpal756216 Network Security Engineer & Software Developer" width="100%" />
 </picture>
 </p>
 
