@@ -1,23 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 480" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 490" width="100%" height="100%">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#050B14" />
       <stop offset="100%" stop-color="#0A181F" />
     </linearGradient>
+
     <style>
       .term-header { fill: #94A3B8; font-family: monospace; font-size: 13px; }
       .badge-text { fill: #FFFFFF; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: bold; }
       .cyan-title { fill: #22D3EE; font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: bold; }
-      .field-label { fill: #38BDF8; font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: 600; }
-      .field-dots { fill: #1E293B; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
-      .field-val { fill: #F1F5F9; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
-      .accent-val { fill: #A78BFA; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
-      .green-val { fill: #34D399; font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+      .field-label { fill: #38BDF8; font-family: 'Courier New', Courier, monospace; font-size: 12px; font-weight: 600; }
+      .field-dots { fill: #1E293B; font-family: 'Courier New', Courier, monospace; font-size: 12px; }
+      .field-val { fill: #F1F5F9; font-family: 'Courier New', Courier, monospace; font-size: 12px; }
+      .accent-val { fill: #A78BFA; font-family: 'Courier New', Courier, monospace; font-size: 12px; }
+      .green-val { fill: #34D399; font-family: 'Courier New', Courier, monospace; font-size: 12px; }
+
+      @keyframes pulseRing {
+        0% { transform: rotate(0deg) scale(1); opacity: 0.8; }
+        50% { transform: rotate(180deg) scale(1.05); opacity: 0.4; }
+        100% { transform: rotate(360deg) scale(1); opacity: 0.8; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { r: 7px; opacity: 0.9; }
+        50% { r: 12px; opacity: 0.4; }
+      }
+      @keyframes blinkDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+      .anim-ring1 { transform-origin: 175px 230px; animation: pulseRing 12s linear infinite; }
+      .anim-ring2 { transform-origin: 175px 230px; animation: pulseRing 8s linear infinite reverse; }
+      .anim-core { animation: pulseGlow 2.5s ease-in-out infinite; }
+      .anim-live { animation: blinkDot 1.5s ease-in-out infinite; }
     </style>
   </defs>
 
   <!-- Background Card -->
-  <rect x="10" y="10" width="930" height="460" rx="16" fill="url(#bgGrad)" stroke="#164E63" stroke-width="1.5" />
+  <rect x="10" y="10" width="930" height="470" rx="16" fill="url(#bgGrad)" stroke="#164E63" stroke-width="1.5" />
 
   <!-- Terminal Top Bar -->
   <circle cx="38" cy="36" r="6" fill="#EF4444" />
@@ -25,97 +44,123 @@
   <circle cx="74" cy="36" r="6" fill="#10B981" />
   <text x="475" y="40" text-anchor="middle" class="term-header">profile.sh --live</text>
 
-  <!-- Left Side Visual Box -->
-  <rect x="35" y="65" width="280" height="375" rx="10" fill="#030712" stroke="#0E7490" stroke-width="1" />
+  <!-- Left Side Visual Box (Radar / Topology Animation) -->
+  <rect x="35" y="65" width="280" height="395" rx="10" fill="#030712" stroke="#0E7490" stroke-width="1" />
   <text x="50" y="90" fill="#22D3EE" font-family="monospace" font-size="11px">VISUAL.MAP</text>
-  
-  <!-- Cyberpunk Particle Graphic Placeholder -->
-  <g opacity="0.85">
-    <ellipse cx="175" cy="240" rx="90" ry="120" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="4 6" />
-    <ellipse cx="175" cy="240" rx="60" ry="85" fill="none" stroke="#A78BFA" stroke-width="1" stroke-dasharray="3 5" />
-    <ellipse cx="175" cy="240" rx="30" ry="50" fill="none" stroke="#38BDF8" stroke-width="1.5" />
-    <circle cx="175" cy="240" r="8" fill="#22D3EE" />
+
+  <g>
+    <!-- Rotating Animated Rings -->
+    <ellipse class="anim-ring1" cx="175" cy="230" rx="85" ry="110" fill="none" stroke="#22D3EE" stroke-width="1.2" stroke-dasharray="5 7" />
+    <ellipse class="anim-ring2" cx="175" cy="230" rx="55" ry="75" fill="none" stroke="#A78BFA" stroke-width="1.2" stroke-dasharray="4 6" />
+    <circle cx="175" cy="230" r="30" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 4" />
+    
+    <!-- Core Glow Pulse -->
+    <circle class="anim-core" cx="175" cy="230" r="8" fill="#22D3EE" />
+    <circle cx="175" cy="230" r="4" fill="#FFFFFF" />
+
+    <!-- Static Satellite Nodes -->
+    <circle cx="120" cy="180" r="3" fill="#38BDF8" />
+    <line x1="120" y1="180" x2="175" y2="230" stroke="#0E7490" stroke-width="0.7" stroke-dasharray="2 3" />
+    <circle cx="230" cy="270" r="3" fill="#A78BFA" />
+    <line x1="230" y1="270" x2="175" y2="230" stroke="#0E7490" stroke-width="0.7" stroke-dasharray="2 3" />
+    <circle cx="210" cy="170" r="3" fill="#34D399" />
+    <line x1="210" y1="170" x2="175" y2="230" stroke="#0E7490" stroke-width="0.7" stroke-dasharray="2 3" />
   </g>
   <text x="175" y="380" text-anchor="middle" fill="#64748B" font-family="monospace" font-size="11px">[ Secure Node Topology ]</text>
+  <text x="175" y="400" text-anchor="middle" fill="#22D3EE" font-family="monospace" font-size="10px">● SYSTEM ENCRYPTED</text>
 
   <!-- Right Side Terminal Content Box -->
-  <rect x="335" y="65" width="580" height="375" rx="10" fill="#030712" stroke="#0E7490" stroke-width="1" />
+  <rect x="335" y="65" width="580" height="395" rx="10" fill="#030712" stroke="#0E7490" stroke-width="1" />
   <text x="355" y="90" fill="#22D3EE" font-family="monospace" font-size="11px">SYSTEM.INFO</text>
-  
+
   <!-- LIVE Indicator -->
   <rect x="830" y="75" width="65" height="22" rx="11" fill="#7F1D1D" />
-  <circle cx="843" cy="86" r="4" fill="#EF4444" />
+  <circle class="anim-live" cx="843" cy="86" r="4" fill="#EF4444" />
   <text x="855" y="90" class="badge-text">LIVE</text>
 
   <!-- User Handle Bar -->
-  <rect x="355" y="105" width="540" height="28" rx="6" fill="#082F49" stroke="#0284C7" stroke-width="0.8" />
-  <text x="625" y="124" text-anchor="middle" class="cyan-title">@Vivekpal756216</text>
+  <rect x="355" y="105" width="540" height="26" rx="6" fill="#082F49" stroke="#0284C7" stroke-width="0.8" />
+  <text x="625" y="122" text-anchor="middle" class="cyan-title">@Vivekpal756216</text>
 
   <!-- Terminal Data Rows -->
-  <g transform="translate(355, 160)">
-    <!-- Row 1 -->
+  <g transform="translate(355, 150)">
     <text x="0" y="0" class="field-label">Subject</text>
-    <text x="110" y="0" class="field-dots">....................</text>
-    <text x="260" y="0" class="field-val">Vivek Mevalal Pal</text>
+    <text x="95" y="0" class="field-dots">....................</text>
+    <text x="240" y="0" class="field-val">Vivek Mevalal Pal</text>
 
-    <!-- Row 2 -->
-    <text x="0" y="22" class="field-label">Role</text>
-    <text x="110" y="22" class="field-dots">....................</text>
-    <text x="260" y="22" class="accent-val">Network Security Engineer &amp; Developer</text>
+    <text x="0" y="19" class="field-label">Role</text>
+    <text x="95" y="19" class="field-dots">....................</text>
+    <text x="240" y="19" class="accent-val">Network Security Engineer &amp; Developer</text>
 
-    <!-- Row 3 -->
-    <text x="0" y="44" class="field-label">Origin</text>
-    <text x="110" y="44" class="field-dots">....................</text>
-    <text x="260" y="44" class="field-val">Mumbai, India</text>
+    <text x="0" y="38" class="field-label">Origin</text>
+    <text x="95" y="38" class="field-dots">....................</text>
+    <text x="240" y="38" class="field-val">Mumbai, India</text>
 
-    <!-- Row 4 -->
-    <text x="0" y="66" class="field-label">Education</text>
-    <text x="110" y="66" class="field-dots">....................</text>
-    <text x="260" y="66" class="field-val">BSc - CS</text>
+    <text x="0" y="57" class="field-label">Education</text>
+    <text x="95" y="57" class="field-dots">....................</text>
+    <text x="240" y="57" class="field-val">BSc - CS</text>
 
-    <!-- Row 5 -->
-    <text x="0" y="88" class="field-label">Status</text>
-    <text x="110" y="88" class="field-dots">....................</text>
-    <text x="260" y="88" class="green-val">OSCP / CEH • Secure Topologies</text>
+    <text x="0" y="76" class="field-label">Status</text>
+    <text x="95" y="76" class="field-dots">....................</text>
+    <text x="240" y="76" class="green-val">OSCP / CEH • Secure Topologies</text>
 
-    <!-- Row 6 -->
-    <text x="0" y="110" class="field-label">ToolChain</text>
-    <text x="110" y="110" class="field-dots">....................</text>
-    <text x="260" y="110" class="field-val">VS Code • PNETLab • EVE-NG • Tabby</text>
+    <text x="0" y="95" class="field-label">ToolChain</text>
+    <text x="95" y="95" class="field-dots">....................</text>
+    <text x="240" y="95" class="field-val">VS Code • PNETLab • EVE-NG • Tabby</text>
 
-    <!-- Row 7 -->
-    <text x="0" y="132" class="field-label">Core.Lang</text>
-    <text x="110" y="132" class="field-dots">....................</text>
-    <text x="260" y="132" class="field-val">Python • JavaScript</text>
+    <text x="0" y="114" class="field-label">Core.Lang</text>
+    <text x="95" y="114" class="field-dots">....................</text>
+    <text x="240" y="114" class="field-val">Python • JavaScript</text>
 
-    <!-- Row 8 -->
-    <text x="0" y="154" class="field-label">Core.Frontend</text>
-    <text x="110" y="154" class="field-dots">....................</text>
-    <text x="260" y="154" class="field-val">HTML • CSS • Three.js</text>
+    <text x="0" y="133" class="field-label">Frontend</text>
+    <text x="95" y="133" class="field-dots">....................</text>
+    <text x="240" y="133" class="field-val">HTML • CSS • Three.js</text>
 
-    <!-- Row 9 -->
-    <text x="0" y="176" class="field-label">Core.Backend</text>
-    <text x="110" y="176" class="field-dots">....................</text>
-    <text x="260" y="176" class="field-val">Django</text>
+    <text x="0" y="152" class="field-label">Backend</text>
+    <text x="95" y="152" class="field-dots">....................</text>
+    <text x="240" y="152" class="field-val">Django • PostgreSQL</text>
 
-    <!-- Row 10 -->
-    <text x="0" y="198" class="field-label">Core.Database</text>
-    <text x="110" y="198" class="field-dots">....................</text>
-    <text x="260" y="198" class="field-val">PostgreSQL / SQLite</text>
+    <text x="0" y="171" class="field-label">Core.Infra</text>
+    <text x="95" y="171" class="field-dots">....................</text>
+    <text x="240" y="171" class="accent-val">Kali • Palo Alto • Check Point • VPN</text>
 
-    <!-- Row 11 -->
-    <text x="0" y="220" class="field-label">Core.Infra</text>
-    <text x="110" y="220" class="field-dots">....................</text>
-    <text x="260" y="220" class="accent-val">Kali • Palo Alto • Check Point • ASA • VPN</text>
+    <text x="0" y="190" class="field-label">Grid.Mail</text>
+    <text x="95" y="190" class="field-dots">....................</text>
+    <text x="240" y="190" class="field-val">VIVEKPAL756216@GMAIL.COM</text>
 
-    <!-- Row 12 -->
-    <text x="0" y="242" class="field-label">Grid.Mail</text>
-    <text x="110" y="242" class="field-dots">....................</text>
-    <text x="260" y="242" class="field-val">VIVEKPAL756216@GMAIL.COM</text>
+    <text x="0" y="209" class="field-label">Portfolio</text>
+    <text x="95" y="209" class="field-dots">....................</text>
+    <text x="240" y="209" class="cyan-title">vkp.vivekpal.gt.tc</text>
+  </g>
 
-    <!-- Row 13 -->
-    <text x="0" y="264" class="field-label">Grid.Portfolio</text>
-    <text x="110" y="264" class="field-dots">....................</text>
-    <text x="260" y="264" class="cyan-title">vkp.vivekpal.gt.tc</text>
+  <!-- 5 Tech Badges / Logos Footer Inside Terminal -->
+  <g transform="translate(355, 395)">
+    <!-- Logo 1: Linux -->
+    <rect x="0" y="0" width="95" height="28" rx="6" fill="#0A181F" stroke="#22D3EE" stroke-width="0.8" />
+    <path d="M14 8 C14 8 11 11 11 16 C11 20 13 22 17 22 C21 22 23 20 23 16 C23 11 20 8 20 8 Z" fill="#E2E8F0" />
+    <circle cx="15" cy="12" r="1" fill="#0A181F" />
+    <circle cx="19" cy="12" r="1" fill="#0A181F" />
+    <path d="M15 15 L19 15 L17 17 Z" fill="#F59E0B" />
+    <text x="32" y="18" fill="#E2E8F0" font-family="monospace" font-size="11px" font-weight="bold">Linux</text>
+
+    <!-- Logo 2: Python -->
+    <rect x="110" y="0" width="95" height="28" rx="6" fill="#0A181F" stroke="#38BDF8" stroke-width="0.8" />
+    <path d="M120 12 C120 9 123 9 126 9 L129 9 L129 12 L124 12 L124 14 L131 14 C133 14 133 17 133 19 L133 20" stroke="#38BDF8" stroke-width="1.2" fill="none" />
+    <text x="140" y="18" fill="#E2E8F0" font-family="monospace" font-size="11px" font-weight="bold">Python</text>
+
+    <!-- Logo 3: Kali / Security -->
+    <rect x="220" y="0" width="95" height="28" rx="6" fill="#0A181F" stroke="#A78BFA" stroke-width="0.8" />
+    <path d="M230 14 L235 9 L240 14 L235 22 Z" fill="#A78BFA" />
+    <text x="250" y="18" fill="#E2E8F0" font-family="monospace" font-size="11px" font-weight="bold">Kali</text>
+
+    <!-- Logo 4: Django -->
+    <rect x="330" y="0" width="95" height="28" rx="6" fill="#0A181F" stroke="#34D399" stroke-width="0.8" />
+    <text x="338" y="18" fill="#34D399" font-family="monospace" font-size="13px" font-weight="bold">dj</text>
+    <text x="360" y="18" fill="#E2E8F0" font-family="monospace" font-size="11px" font-weight="bold">Django</text>
+
+    <!-- Logo 5: Shield / SecOps -->
+    <rect x="440" y="0" width="95" height="28" rx="6" fill="#0A181F" stroke="#F43F5E" stroke-width="0.8" />
+    <path d="M451 9 L458 12 L458 17 C458 21 451 24 451 24 C451 24 444 21 444 17 L444 12 Z" fill="#F43F5E" />
+    <text x="466" y="18" fill="#E2E8F0" font-family="monospace" font-size="11px" font-weight="bold">SecOps</text>
   </g>
 </svg>
