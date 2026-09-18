@@ -29,6 +29,32 @@
 
 ## `> SYSTEM.PROFILE`
 
+<!-- ========================================================= -->
+<!--                      SOCIAL LINKS                         -->
+<!-- ========================================================= -->
+
+<p align="center">
+<a href="mailto:VIVEKPAL756216@GMAIL.COM">
+<img src="https://img.shields.io/badge/Gmail-VIVEKPAL756216%40GMAIL.COM-0A181F?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-Vivek%20Pal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.instagram.com/" target="_blank">
+<img src="https://img.shields.io/badge/Instagram-Vivek%20Pal-0A181F?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.facebook.com/" target="_blank">
+<img src="https://img.shields.io/badge/Facebook-Vivek%20Pal-0A181F?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" />
+</a>
+&nbsp;&nbsp;
+<a href="https://vkp.vivekpal.gt.tc" target="_blank">
+<img src="https://img.shields.io/badge/Portfolio-vkp.vivekpal.gt.tc-0A181F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" />
+</a>
+</p>
+
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │ NAME       : Vivek Mevalal Pal                               │
