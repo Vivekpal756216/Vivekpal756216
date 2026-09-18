@@ -1,9 +1,8 @@
 <!-- ===== THEME-AWARE HERO BANNER ===== -->
-<!-- ===== THEME-AWARE HERO BANNER ===== -->
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vivekpal756216/vivek/master/assets/dark.svg">
-  <img alt="Vivek Pal" src="https://raw.githubusercontent.com/Vivekpal756216/vivek/master/assets/dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vivekpal756216/Vivekpal756216/main/assets/dark.svg">
+  <img alt="Vivek Pal" src="https://raw.githubusercontent.com/Vivekpal756216/Vivekpal756216/main/assets/dark.svg" width="100%">
 </picture>
 </div>
 
