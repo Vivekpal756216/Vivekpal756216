@@ -29,6 +29,20 @@
 
 ## `> SYSTEM.PROFILE`
 
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│ NAME       : Vivek Mevalal Pal                               │
+│ ROLE       : Network Security Engineer & Software Developer  │  
+│ LOCATION   : Mumbai, India                                   │
+│ EDUCATION  : BSc-CS                                          │
+│ STATUS     : Studying OSCP & CEH                             │
+│ FOCUS      : Secure Network Topologies                       │
+│ BACKEND    : Django                                          │
+│ FRONTEND   : HTML · CSS · Three.js                           │
+│ LANGUAGES  : Python · JavaScript                             │
+└──────────────────────────────────────────────────────────────┘
+
 <!-- ========================================================= -->
 <!--                      SOCIAL LINKS                         -->
 <!-- ========================================================= -->
@@ -54,16 +68,3 @@
 <img src="https://img.shields.io/badge/Portfolio-vkp.vivekpal.gt.tc-0A181F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" />
 </a>
 </p>
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│ NAME       : Vivek Mevalal Pal                               │
-│ ROLE       : Network Security Engineer & Software Developer  │
-│ LOCATION   : Mumbai, India                                   │
-│ EDUCATION  : BSc-CS                                          │
-│ STATUS     : Studying OSCP & CEH                             │
-│ FOCUS      : Secure Network Topologies                       │
-│ BACKEND    : Django                                          │
-│ FRONTEND   : HTML · CSS · Three.js                           │
-│ LANGUAGES  : Python · JavaScript                             │
-└──────────────────────────────────────────────────────────────┘
