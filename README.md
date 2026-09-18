@@ -2,7 +2,7 @@
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vivekpal756216/vivekpal756216/main/assets/dark.svg">
-  <img alt="Vivek Pal" src="https://raw.githubusercontent.com/Vivekpal756216/vivekpal756216/main/assets/dark.svg">
+  <img alt="Vivek Pal" src="https://raw.githubusercontent.com/Vivekpal756216/vivekpal756216/main/assets/dark_preview.svg">
 </picture>
 </div>
 
